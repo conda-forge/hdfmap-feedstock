@@ -30,6 +30,7 @@ requirements:
     - numpy
     - h5py
     - hdf5plugin
+    - asteval
 
 test:
   imports:
