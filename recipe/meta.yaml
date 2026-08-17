@@ -1,14 +1,13 @@
-{% set python_min = "3.10" %}
 {% set name = "hdfmap" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hdfmap-{{ version }}.tar.gz
-  sha256: 6ab09ef7d464460f46ea5e9af4ddf7c90bacf872559816c2d7163f34d769ea13
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/hdfmap-{{ version }}.tar.gz
+  sha256: 9df9d4bc61986ede705e3e750206d82ebd14e61d167585958641f3c016aba34d
 
 build:
   noarch: python
