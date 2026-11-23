@@ -1,5 +1,5 @@
 {% set name = "hdfmap" %}
-{% set version = "1.4.1" %}
+{% set version = "1.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/hdfmap-{{ version }}.tar.gz
-  sha256: 2c8b049f3a14626d3b2cd37018d95de8081dd20ebc2d3a97cd9583109a2b70bf
+  sha256: 0d4aab3809f3e8671c04854fd66ec3a6af5e2d0290a8e43881e2d2cb09c6ca30
 
 build:
   noarch: python
